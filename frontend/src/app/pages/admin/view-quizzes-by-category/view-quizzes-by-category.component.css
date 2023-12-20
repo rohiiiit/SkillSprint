@@ -1,0 +1,14 @@
+
+.example-header-image {
+    background-image: url('../../../../assets/quizlogo.png');
+    background-size: cover;
+}
+.h20{
+    height: 20px;
+}
+.w20{
+    width: 20px;
+}
+.ml20{
+    margin-left: 20px;
+}

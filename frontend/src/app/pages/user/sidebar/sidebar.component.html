@@ -1,0 +1,19 @@
+<mat-card>
+    <mat-action-list>
+        <div mat-subheader>
+            Menu
+        </div>
+        <button mat-list-item routerLink="/user/profile">
+            <mat-icon mat-list-icon>account_circle</mat-icon>Profile
+        </button>
+        <button mat-list-item routerLink="/user/load-quiz/0">
+            <mat-icon mat-list-icon>list</mat-icon>All Quizzes
+        </button>
+        <div mat-subheader>
+            categories
+        </div>
+        <button mat-list-item *ngFor="let category of categories" [routerLink]="'/user/load-quiz/'+category.categoryId">
+            <mat-icon mat-list-icon>task</mat-icon>{{category.title}}
+        </button>
+    </mat-action-list>    
+</mat-card>

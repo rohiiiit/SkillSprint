@@ -1,0 +1,14 @@
+.ml20{
+    margin-right: 20px;
+}
+.truncate{
+    display: block;
+    width: 100%;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: unset;
+}
+.image {
+    background-image: url('https://cdn-icons-png.flaticon.com/128/5736/5736652.png');
+    background-size: cover;
+  }

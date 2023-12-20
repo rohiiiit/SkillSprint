@@ -1,0 +1,11 @@
+.truncate{
+    display: block;
+    width: 100%;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+.example-header-image {
+    background-image: url('../../../../assets/quizlogo.png');
+    background-size: cover;
+  }

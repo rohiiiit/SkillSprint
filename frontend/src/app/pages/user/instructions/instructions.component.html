@@ -1,0 +1,31 @@
+<div class="bootstrap-wrapper">
+    <div class="container mt20">
+
+            <mat-card>
+                <mat-card-header>
+                    <h1 class="text-center"><b> Important Instructions </b></h1>
+                </mat-card-header>
+                <mat-card-content class="ml20">
+                    <mat-divider></mat-divider><br/>
+                    
+                    <ul>
+                        <li>Number of Questions : {{Quiz?.numberOfQuestion}}</li>
+                        <li>Maximum marks : {{Quiz?.maxMarks}}</li>
+                        <li>All Questions are MCQ Type</li>
+                        <li>This Quiz Only For Practice purpose</li>
+                        <li>This is a timed test. Please make sure you are not interrupted during the test, as the timer cannot be paused once started.</li>
+                        <li>Please ensure you have a stable internet connection.</li>
+                        <li>You can attempt it multiple time</li>
+                        <li>No Negative Marking</li>
+            
+                    </ul>
+
+                </mat-card-content>
+               
+                <mat-card-actions class="text-center">
+                    <button mat-raised-button color="primary" (click)="startQuiz()">Start Quiz</button>
+                </mat-card-actions>
+            </mat-card>
+     
+    </div>
+</div>

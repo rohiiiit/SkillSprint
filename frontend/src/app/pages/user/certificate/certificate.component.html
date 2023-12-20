@@ -1,0 +1,29 @@
+<div class="bootstrap-wrapper">
+    <div class="container">
+        <div class="col-md-10 offset-md-1" id="certificate">
+            <mat-card class="mt20">
+                <mat-card class="text-center">
+                    <h1><img class="image" src="../../../../assets/homeLogo.png" alt=""><b>Exam-Portal</b> </h1>
+                    <h1 class="headingQuiz">Certificate of Quiz</h1>
+                    <!-- <h3>Name: <b>{{ this.user.firstName }} {{this.user.lastName}}</b></h3> -->
+                </mat-card>
+                <mat-card-content class="mt20">
+                    <div class="text-center">
+                        <h3 class="name"><b>{{ this.user.firstName }} {{this.user.lastName}}</b></h3>
+                    </div>
+                    <div class="data text-center">
+                        has successfully completed a online Quiz on <b>{{Quiz?.title}}</b>. We wish <b>{{ this.user.firstName }}</b> all the best for the future.
+                    </div> 
+                    <div class="mt20 text-center">
+                        <img *ngIf="percentage<35" src="https://cdn-icons-png.flaticon.com/128/1770/1770579.png" alt="">
+                        <img *ngIf="percentage>35 && percentage<80" src="https://cdn-icons-png.flaticon.com/128/1770/1770537.png" alt="">
+                        <img *ngIf="percentage>=80" src="https://cdn-icons-png.flaticon.com/128/1977/1977767.png" alt="">
+                        <h2><b>{{percentage}}%</b></h2>
+                    </div>
+                </mat-card-content>
+            </mat-card>
+        </div>
+        <div class="text-center mt20">
+            <button mat-raised-button color="primary" routerLink="/user/load-quiz/0">Home</button>
+            <button class="ml20" tit [useExistingCss]="true" mat-raised-button color="accent" printSectionId="certificate" ngxPrint>certificate</button>
+        </div>

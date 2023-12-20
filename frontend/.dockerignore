@@ -1,0 +1,14 @@
+node_modules
+dist/
+tmp/
+out/
+.git
+.gitignore
+.vscode
+README.md
+*.log
+coverage/
+*.test.js
+*.spec.js
+Dockerfile
+.env

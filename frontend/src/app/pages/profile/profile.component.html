@@ -1,0 +1,48 @@
+<div class="bootstrap-wrapper mt20">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6 offset-md-3 text-center">
+                <mat-card>
+                <img class="profile-image" src="../../../assets/default.png" alt="img not found"/>
+                <h1 *ngIf="!readData" >Profile</h1>
+                <h1 *ngIf="readData">Edit Profile</h1>
+                <form (ngSubmit)="updateProfile(user)">
+                    <mat-form-field class="full-width" appearance="outline">
+                        <mat-label>username</mat-label>
+                        <input [readonly]="true" [(ngModel)]="user.username" required name="username" matInput placeholder="Enter user Name">
+                    </mat-form-field>
+                    <mat-form-field class="full-width" appearance="outline">
+                        <mat-label>First Name</mat-label>
+                        <input [readonly]="!readData" [(ngModel)]="user.firstName" required name="firstName" matInput placeholder="Enter First Name">
+                    </mat-form-field>
+
+                    <mat-form-field class="full-width" appearance="outline">
+                        <mat-label>Last Name</mat-label>
+                        <input [readonly]="!readData" [(ngModel)]="user.lastName" required name="lastName" matInput placeholder="Enter Last Name">
+                    </mat-form-field>
+
+                    <mat-form-field class="full-width" appearance="outline">
+                        <mat-label>Email</mat-label>
+                        <input [readonly]="!readData" [(ngModel)]="user.email" required name="email" type="email" matInput placeholder="Enter Email">
+                    </mat-form-field>
+
+                    <mat-form-field class="full-width" appearance="outline">
+                        <mat-label>Phone Number</mat-label>
+                        <input [readonly]="!readData" [(ngModel)]="user.phone" required name="phone" type="number" matInput placeholder="Enter Phone Number">
+                    </mat-form-field>
+
+                    <!-- <mat-form-field class="full-width" appearance="outline">
+                        <mat-label>Role</mat-label>
+                        <input [readonly]="!readData" [(ngModel)]="user.authorities[0].authority" required name="Role" matInput>
+                    </mat-form-field> -->
+
+                    <div class="container">
+                        <button *ngIf="!readData" mat-raised-button color="primary" (click)="read()">Update Profile</button>
+                        <button *ngIf="readData" type="submit" mat-raised-button color="primary">Submit Profile</button>
+                    </div>
+                </form>
+            </mat-card>
+            </div>
+        </div>
+    </div>
+</div>

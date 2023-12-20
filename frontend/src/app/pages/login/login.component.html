@@ -1,0 +1,38 @@
+<div class="bootstrap-wrapper mt20">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6 offset-md-3 text-center">
+                <mat-card>
+                <div class="container">
+                    <img style="height: 150px; width: 150px;" src="../../../assets/loginLogo.png" alt="Img not found">
+                </div>
+                <h1>Login Here..!</h1>
+                <!-- {{logindata | json}} -->
+                <form (ngSubmit)="formSubmit()">
+
+                    <mat-form-field class="full-width" appearance="outline">
+                        <mat-label>Username</mat-label>
+                        <input [(ngModel)]="logindata.username" name="username" required matInput placeholder="Enter Username">
+                    </mat-form-field>
+
+                    <mat-form-field class="full-width" appearance="outline">
+                        <mat-label>Password</mat-label>
+                        <input [type]="showPassword ? 'text' : 'password'" [(ngModel)]="logindata.password" name="password" required matInput placeholder="Enter password">
+                        <mat-icon matSuffix (click)="togglePasswordVisibility()">
+                            {{showPassword?'visibility_off':'visibility'}}
+                        </mat-icon>
+                    </mat-form-field>
+                    
+                    <div class="container">
+                        <button type="submit" mat-raised-button color="primary">Login</button>
+                    </div>
+                    <div class="text-center mt20">
+                        <p>Not a member? <a routerLink="/register">Register</a></p>
+                    </div>
+                </form>
+            </mat-card>
+            </div>
+        </div>
+    </div>
+</div>
+

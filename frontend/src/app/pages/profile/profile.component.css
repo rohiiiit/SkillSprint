@@ -1,0 +1,21 @@
+.profile-image{
+    max-width: 150px;
+    max-height: 150px;
+    border: 2px solid blue;
+    border-radius: 50%;
+}
+.mt20{
+    margin-top: 20px;
+}
+.table{
+    width: 100%;
+    border: 0.5px solid #e2e2e2;
+    border-collapse: collapse;
+}
+.table tr td{
+    padding: 20px 50px;
+    border: 0.5px solid #e2e2e2;
+}
+.full-width{
+    width: 70%;
+}
