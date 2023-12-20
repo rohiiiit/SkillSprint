@@ -1,13 +1,33 @@
-# Examserver
+# SkillSprint
 
 ## Introduction
-This project is a Dockerized application consisting of a MySQL database, a backend service with SpringBoot, and a frontend with Angular. This README outlines the steps to get the application up and running using Docker.
+**SkillSprint** is a comprehensive online examination portal designed to facilitate online exams. This platform is tailored for both users who wish to take exams and admins who manage the exam process. It offers a user-friendly interface for exam takers and a robust management system for administrators.
 
-## Prerequisites
-Before you begin, ensure you have the following installed:
-- Docker
+## Features
 
-## Running the Application
+### For Users
+- **User Login:** Secure login system for exam takers.
+- **Exam Participation:** Ability to take various exams available on the portal.
+- **Result Viewing:** Users can view their marks after completing the exams.
+  ![Screenshot (27)](https://github.com/rohiiiit/examserver/assets/68510500/1f25fd98-0135-4419-9211-5857f61c6522)
+
+
+### For Admins
+- **User Management:** Admins can manage user accounts, including creation and maintenance.
+- **Category Management:** Ability to create and manage different categories of exams.
+- **Quiz Management:** Admins can add new quizzes and view existing ones.
+![Screenshot (23)](https://github.com/rohiiiit/examserver/assets/68510500/0667e382-0792-4f50-bbb1-54f2a4fe6cc4)
+![Screenshot (24)](https://github.com/rohiiiit/examserver/assets/68510500/7949c101-6dac-413b-9982-b57a9d61f831)
+![Screenshot (25)](https://github.com/rohiiiit/examserver/assets/68510500/67f433c2-9099-4afd-af17-9186a6722d40)
+![Screenshot (26)](https://github.com/rohiiiit/examserver/assets/68510500/d81db8c0-68ed-49c9-a32b-7d00a5785193)
+
+
+## Getting Started
+
+### Prerequisites
+- Ensure you have [Docker](https://www.docker.com/) installed on your machine.
+
+### Installation and Running the Application
 To run the application, follow these steps:
 
 ### Pull Docker Images:
