@@ -9,21 +9,19 @@
 - **User Login:** Secure login system for exam takers.
 - **Exam Participation:** Ability to take various exams available on the portal.
 - **Result Viewing:** Users can view their marks after completing the exams.
-  ![Screenshot (27)](https://github.com/rohiiiit/examserver/assets/68510500/1f25fd98-0135-4419-9211-5857f61c6522)
-  
+
+<img src="https://github.com/rohiiiit/examserver/assets/68510500/1f25fd98-0135-4419-9211-5857f61c6522" width="500">
 
 
 ### For Admins
 - **User Management:** Admins can manage user accounts, including creation and maintenance.
 - **Category Management:** Ability to create and manage different categories of exams.
 - **Quiz Management:** Admins can add new quizzes and view existing ones.
-<img src="![Screenshot (23)](https://github.com/rohiiiit/examserver/assets/68510500/0667e382-0792-4f50-bbb1-54f2a4fe6cc4)" width="300" height="200">
 
-
-![Screenshot (24)](https://github.com/rohiiiit/examserver/assets/68510500/7949c101-6dac-413b-9982-b57a9d61f831)
-![Screenshot (25)](https://github.com/rohiiiit/examserver/assets/68510500/67f433c2-9099-4afd-af17-9186a6722d40)
-![Screenshot (26)](https://github.com/rohiiiit/examserver/assets/68510500/d81db8c0-68ed-49c9-a32b-7d00a5785193)
-
+<img src="https://github.com/rohiiiit/examserver/assets/68510500/0667e382-0792-4f50-bbb1-54f2a4fe6cc4" width="500">
+<img src="https://github.com/rohiiiit/examserver/assets/68510500/7949c101-6dac-413b-9982-b57a9d61f831" width="500">
+<img src="https://github.com/rohiiiit/examserver/assets/68510500/67f433c2-9099-4afd-af17-9186a6722d40" width="500">
+<img src="https://github.com/rohiiiit/examserver/assets/68510500/d81db8c0-68ed-49c9-a32b-7d00a5785193" width="500">
 
 ## Getting Started
 
