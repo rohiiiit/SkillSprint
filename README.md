@@ -35,7 +35,7 @@ To run the application, follow these steps:
 Instead of cloning a Git repository, directly pull the Docker images for the backend and frontend using the following commands:
 
 ```bash
-docker pull rohiiiit/backend
+docker pull rohiiiit/backend:latest
 docker pull rohiiiit/examserver
 ```
 
